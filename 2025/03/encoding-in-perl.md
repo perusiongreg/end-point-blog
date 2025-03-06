@@ -10,7 +10,7 @@ tags:
  - unicode
 ---
 
-When we are dealing with legacy applications, it's very much possible
+When we are dealing with legacy applications, it's very possible
 that the code we are looking at does not have a clear understanding of
 the problems related to plain text handling.
 
@@ -22,7 +22,7 @@ possible that our old application survived ignoring or working around
 the whole issue?
 
 Well, if your audience is mainly English speaking, it's possible that
-you just experiences glitches sometimes, with some characters like
+you just experience glitches sometimes, with some characters like
 typographical quotes, non breaking spaces, etc. which are not really
 mission-critical.
 
@@ -61,7 +61,7 @@ like 8859-15 and 8859-16).
 
 The problem is that if you have a random string, you have to guess
 which is the correct encoding. Is this character a "È" or "Č"? You
-need to look at the context (which language is this?) or searching for
+need to look at the context (which language is this?) or search for
 an encoding declaration. Most important, you are simply not able to
 type È and Č in the same plain text document. If your company works in
 Italy using the 8859-15 encoding, it means you can't even accept the
@@ -71,7 +71,7 @@ with the caron like "č", and you have to work around this real
 problem.
 
 So finally came the [Unicode](https://en.wikipedia.org/wiki/) age.
-This standard allows for more than a million of characters, which
+This standard allows for more than a million characters, which
 should be enough. You can finally type English, Italian, Russian,
 Arabic and Emojis all in the same plain text. This is truly great, but
 it creates a complication for the programmer: the assumption that one
@@ -223,7 +223,7 @@ because of the heuristic approach they take.
 ### Debugging strategies
 
 It may not be the most correct approach, but that's what I've been
-using for more than a decade and works, and it's simply to use
+using for more than a decade and it works, and it's simple to use
 `Data::Dumper` or `Data::Dumper::Concise` and call `Dumper` on the
 string you want to examine.
 
@@ -247,9 +247,9 @@ handle the input and the output correctly along the whole application:
  - make sure the DB drivers handle the I/O correctly
  - make sure the web framework is decoding the input and encoding the output
  - make sure the files you read and write are correctly handled
- - clean up any workaround you may had in place to make it so far
+ - clean up any workaround you may have had in place to make it so far
  
-This can look, and is, a challenging task, but it's totally worth of
+This can look, and is, a challenging task, but it's totally worth
 it, as fancy characters nowadays are the norm. Typographical quotes
 like “this” and ‘this’ are very common and inserted by word processors
 automatically. So are Emojis. People and customers simply expect them
@@ -258,7 +258,7 @@ to work.
 ### Band-aids
 
 If your client is on a budget or can't deal with a large upgrade like
-this one, which has the potential to be disruptive and exposing bugs
+this one, which has the potential to be disruptive and expose bugs
 which are lurking around, you can try to degrade the Unicode
 characters to ASCII with tools like
 [Text::Unidecode](https://metacpan.org/pod/Text::Unidecode) (which, by
