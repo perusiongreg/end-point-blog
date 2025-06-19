@@ -101,7 +101,7 @@ The smartest businesses find a rhythm — build what they can, hire when it matt
 
 ## Need help evaluating your eCommerce development path?
 
-I’ve helped business owners like you balance time, cost, and complexity in eCommerce builds.  
+End Point helps business owners like you balance time, cost, and complexity in eCommerce builds.  
 **[Contact me for a quick consultation or send your current project for review.]**
 
 
