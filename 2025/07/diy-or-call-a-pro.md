@@ -1,6 +1,3 @@
-Here is your blog post **in Markdown format**, ready for use in your CMS or Markdown editor:
-
-```markdown
 # When to DIY vs Hire for eCommerce Development: A Practical Guide for Business Owners
 
 Many eCommerce businesses start with a scrappy DIY mindset. And that works — until it doesn’t.  
@@ -107,7 +104,7 @@ The smartest businesses find a rhythm — build what they can, hire when it matt
 I’ve helped business owners like you balance time, cost, and complexity in eCommerce builds.  
 **[Contact me for a quick consultation or send your current project for review.]**
 
-```
 
-Let me know if you'd like this formatted for a specific platform like WordPress, Ghost, Jekyll, or Hugo — or if you’d like to embed a downloadable checklist or lead magnet.
+
+
 
